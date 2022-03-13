@@ -1,17 +1,63 @@
 <form class="mt-5">
-    <div class="card">
-        <div class="card-header">
+    <div class="card border-dark">
+        <div class="card-header bg-dark text-white">
             Realizar uma Reserva
         </div>
 
         <div class="card-body">
             <div class="row">
-                <div class="form-group col-md-7">
-                    <div class="input-group">
-                        <span class="input-group-text" id="basic-addon1">Nome da Reserva</span>
+                <div class="form-group col-md-6">
+                    <div class="input-group ">
+                        <span class="input-group-text bg-dark text-white" id="basic-addon1">Nome da Reserva</span>
                         <input type="text" class="form-control" placeholder="Nome da Reserva" aria-label="Nome da Reserva" aria-describedby="basic-addon1"> 
                     </div>
                 </div>
+
+                <div class="form-group col-md-3">
+                    <div class="input-group ">
+                        <span class="input-group-text bg-dark text-white" id="basic-addon1">Hora Entrada</span>
+                        <input type="text" class="form-control" placeholder="Hora Entrada" aria-label="Hora Entrada" aria-describedby="basic-addon1"> 
+                    </div>
+                </div>
+
+                <div class="form-group col-md-3">
+                    <div class="input-group ">
+                        <span class="input-group-text bg-dark text-white" id="basic-addon1">Hora Saida</span>
+                        <input type="text" class="form-control" placeholder="Hora Saida" aria-label="Hora Saida" aria-describedby="basic-addon1"> 
+                    </div>
+                </div>
+
+                <div class="form-group col-md-4 mt-3">
+                    <div class="input-group ">
+                        <span class="input-group-text bg-dark text-white" id="basic-addon1">Data da Reserva</span>
+                        <input type="text" class="form-control" placeholder="Data da Reserva" aria-label="Data da Reserva" aria-describedby="basic-addon1"> 
+                    </div>
+                </div>
+
+                <div class="form-group col-md-3 mt-3">
+                    <div class="input-group ">
+                        <label class="input-group-text bg-dark text-white" for="inputGroupSelect01">Mesa</label>
+                        <select class="form-select" id="inputGroupSelect01">
+                          <option selected>Mesa...</option>
+                          <option value="1">Mesa 1</option>
+                          <option value="2">Mesa 2</option>
+                          <option value="3">Mesa 3</option>
+                          <option value="4">Mesa 4</option>
+                          <option value="5">Mesa 5</option>
+                          <option value="6">Mesa 6</option>
+                          <option value="7">Mesa 7</option>
+                          <option value="8">Mesa 8</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group  mt-3">  
+                    <button type="button" class="btn btn-outline-success float-end">Salvar Reserva</button>
+                    <button type="button" class="btn btn-outline-danger" routerLink="/home">Voltar</button>
+                </div>
+
+
+
             </div>
         </div>
     </div>
